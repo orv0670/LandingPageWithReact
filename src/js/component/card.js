@@ -1,11 +1,15 @@
 import React from "react";
+import img1 from "../../img/ironman.jpg";
+import img2 from "../../img/collie.jpg";
+import img3 from "../../img/Pink_Floyd.jpg";
+import img4 from "../../img/tequila.jpg";
 
 export function Card() {
 	return (
 		<div className="d-flex justify-content-around">
 			<div className="card mx-3" style={{ width: "18rem" }}>
 				<img
-					src="https://i.pinimg.com/originals/6a/6f/39/6a6f39f0a71b678114abc3a8746f1916.jpg"
+					src={img2}
 					className="card-img-top"
 					alt="..."
 					height="266.23px"
@@ -33,12 +37,7 @@ export function Card() {
 			</div>
 
 			<div className="card mx-3" style={{ width: "18rem" }}>
-				<img
-					height="266.23px"
-					src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzpGflUNH7mPzMK7twD-9HEJGbkaJAA0PlmQ&usqp=CAU"
-					className="card-img-top"
-					alt=""
-				/>
+				<img height="266.23px" src={img1} className="card-img-top" />
 				<div className="card-body">
 					<h5 className="card-title">Iron Man</h5>
 					<p className="card-text">
@@ -63,7 +62,7 @@ export function Card() {
 
 			<div className="card mx-3" style={{ width: "18rem" }}>
 				<img
-					src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqNsXS-mzHQ5t6wba_eGaAXNyw_gycEtzBlw&usqp=CAU"
+					src={img3}
 					className="card-img-top"
 					alt="..."
 					height="266.23px"
@@ -90,7 +89,7 @@ export function Card() {
 
 			<div className="card mx-3" style={{ width: "18rem" }}>
 				<img
-					src="https://cnnespanol.cnn.com/wp-content/uploads/2016/02/tequila-don-julio-diaego-mecc81xico-industria-cnn.jpg?quality=100&strip=info"
+					src={img4}
 					className="card-img-top"
 					alt="..."
 					height="266.23px"
